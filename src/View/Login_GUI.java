@@ -75,7 +75,7 @@ public class Login_GUI extends javax.swing.JFrame {
             }
         });
         jPanel1.add(BtnLog);
-        BtnLog.setBounds(220, 220, 59, 23);
+        BtnLog.setBounds(199, 220, 90, 23);
 
         BtnSair.setText("Sair");
         BtnSair.addActionListener(new java.awt.event.ActionListener() {
@@ -84,7 +84,7 @@ public class Login_GUI extends javax.swing.JFrame {
             }
         });
         jPanel1.add(BtnSair);
-        BtnSair.setBounds(400, 260, 51, 23);
+        BtnSair.setBounds(410, 260, 70, 23);
 
         getContentPane().add(jPanel1);
         jPanel1.setBounds(0, 0, 500, 300);
@@ -107,11 +107,11 @@ public class Login_GUI extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null,"Usuario ou senha incorreto \nSistema será fechado");
             System.exit(0);
     }//GEN-LAST:event_BtnLogActionPerformed
-
+    }
     private void loginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loginActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_loginActionPerformed
-    }    
+     
     public static void main(String args[]) {
        
         try {
