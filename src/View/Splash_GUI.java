@@ -39,7 +39,7 @@ public class Splash_GUI extends javax.swing.JFrame {
                         
                         sleep(3000);
                         
-                       new Login_GUI().setVisible(true);
+                        new Login_GUI().setVisible(true);
 			dispose();
                         }
                         
